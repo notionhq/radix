@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3CCB1E16F82C92008764E5 /* NSNumber+Radix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCB1D16F82C92008764E5 /* NSNumber+Radix.m */; };
+		0B3CCB2A16F82EA0008764E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B694E6316F802D700F2C8E6 /* UIKit.framework */; };
+		0B3CCB2B16F82EA0008764E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B694E6516F802D700F2C8E6 /* Foundation.framework */; };
+		0B3CCB3116F82EA0008764E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B3CCB2F16F82EA0008764E5 /* InfoPlist.strings */; };
+		0B3CCB3416F82EA0008764E5 /* RadixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCB3316F82EA0008764E5 /* RadixTests.m */; };
+		0B3CCB3B16F82EDC008764E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3CCB3916F82EDC008764E5 /* SenTestingKit.framework */; };
+		0B3CCB3C16F83114008764E5 /* NSNumber+Radix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCB1D16F82C92008764E5 /* NSNumber+Radix.m */; };
+		0B3CCE7916F96F35008764E5 /* NSString+Radix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCE7816F96F34008764E5 /* NSString+Radix.m */; };
+		0B3CCE7A16F96F35008764E5 /* NSString+Radix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCE7816F96F34008764E5 /* NSString+Radix.m */; };
+		0B3CCE7D16F98018008764E5 /* RDXGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCE7C16F98018008764E5 /* RDXGameViewController.m */; };
+		0B3CCE8116F980D8008764E5 /* RDXKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCE8016F980D7008764E5 /* RDXKeyboard.m */; };
 		0B694E6416F802D700F2C8E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B694E6316F802D700F2C8E6 /* UIKit.framework */; };
 		0B694E6616F802D700F2C8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B694E6516F802D700F2C8E6 /* Foundation.framework */; };
 		0B694E6816F802D700F2C8E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B694E6716F802D700F2C8E6 /* CoreGraphics.framework */; };
@@ -18,9 +29,26 @@
 		0B694E7A16F802D700F2C8E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B694E7916F802D700F2C8E6 /* Default@2x.png */; };
 		0B694E7C16F802D700F2C8E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B694E7B16F802D700F2C8E6 /* Default-568h@2x.png */; };
 		0B694E7F16F802D700F2C8E6 /* Radix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B694E7D16F802D700F2C8E6 /* Radix.xcdatamodeld */; };
+		0B840DE716FAD09000E9C42B /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B840DE616FAD09000E9C42B /* icomoon.ttf */; };
+		854962EAE9244392A37931D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F56C810E2234D2ABDD8CE02 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B3CCB1C16F82C92008764E5 /* NSNumber+Radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Radix.h"; sourceTree = "<group>"; };
+		0B3CCB1D16F82C92008764E5 /* NSNumber+Radix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Radix.m"; sourceTree = "<group>"; };
+		0B3CCB2716F82EA0008764E5 /* RadixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3CCB2E16F82EA0008764E5 /* RadixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadixTests-Info.plist"; sourceTree = "<group>"; };
+		0B3CCB3016F82EA0008764E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B3CCB3216F82EA0008764E5 /* RadixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadixTests.h; sourceTree = "<group>"; };
+		0B3CCB3316F82EA0008764E5 /* RadixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadixTests.m; sourceTree = "<group>"; };
+		0B3CCB3516F82EA0008764E5 /* RadixTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadixTests-Prefix.pch"; sourceTree = "<group>"; };
+		0B3CCB3916F82EDC008764E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B3CCE7716F96F34008764E5 /* NSString+Radix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Radix.h"; sourceTree = "<group>"; };
+		0B3CCE7816F96F34008764E5 /* NSString+Radix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Radix.m"; sourceTree = "<group>"; };
+		0B3CCE7B16F98018008764E5 /* RDXGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDXGameViewController.h; sourceTree = "<group>"; };
+		0B3CCE7C16F98018008764E5 /* RDXGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDXGameViewController.m; sourceTree = "<group>"; };
+		0B3CCE7F16F980D7008764E5 /* RDXKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDXKeyboard.h; sourceTree = "<group>"; };
+		0B3CCE8016F980D7008764E5 /* RDXKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDXKeyboard.m; sourceTree = "<group>"; };
 		0B694E5F16F802D700F2C8E6 /* Radix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B694E6316F802D700F2C8E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B694E6516F802D700F2C8E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,9 +64,22 @@
 		0B694E7916F802D700F2C8E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0B694E7B16F802D700F2C8E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0B694E7E16F802D700F2C8E6 /* Radix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radix.xcdatamodel; sourceTree = "<group>"; };
+		0B840DE616FAD09000E9C42B /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		2F56C810E2234D2ABDD8CE02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83121FAFA03C414BA8EF2D5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B3CCB2316F82EA0008764E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3CCB2A16F82EA0008764E5 /* UIKit.framework in Frameworks */,
+				0B3CCB2B16F82EA0008764E5 /* Foundation.framework in Frameworks */,
+				0B3CCB3B16F82EDC008764E5 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B694E5C16F802D700F2C8E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,18 +88,42 @@
 				0B694E6616F802D700F2C8E6 /* Foundation.framework in Frameworks */,
 				0B694E6816F802D700F2C8E6 /* CoreGraphics.framework in Frameworks */,
 				0B694E6A16F802D700F2C8E6 /* CoreData.framework in Frameworks */,
+				854962EAE9244392A37931D1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3CCB2C16F82EA0008764E5 /* RadixTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B3CCB3216F82EA0008764E5 /* RadixTests.h */,
+				0B3CCB3316F82EA0008764E5 /* RadixTests.m */,
+				0B3CCB2D16F82EA0008764E5 /* Supporting Files */,
+			);
+			path = RadixTests;
+			sourceTree = "<group>";
+		};
+		0B3CCB2D16F82EA0008764E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B840DE616FAD09000E9C42B /* icomoon.ttf */,
+				0B3CCB2E16F82EA0008764E5 /* RadixTests-Info.plist */,
+				0B3CCB2F16F82EA0008764E5 /* InfoPlist.strings */,
+				0B3CCB3516F82EA0008764E5 /* RadixTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0B694E5416F802D600F2C8E6 = {
 			isa = PBXGroup;
 			children = (
 				0B694E6B16F802D700F2C8E6 /* Radix */,
+				0B3CCB2C16F82EA0008764E5 /* RadixTests */,
 				0B694E6216F802D700F2C8E6 /* Frameworks */,
 				0B694E6016F802D700F2C8E6 /* Products */,
+				83121FAFA03C414BA8EF2D5E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0B694E5F16F802D700F2C8E6 /* Radix.app */,
+				0B3CCB2716F82EA0008764E5 /* RadixTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +143,8 @@
 				0B694E6516F802D700F2C8E6 /* Foundation.framework */,
 				0B694E6716F802D700F2C8E6 /* CoreGraphics.framework */,
 				0B694E6916F802D700F2C8E6 /* CoreData.framework */,
+				0B3CCB3916F82EDC008764E5 /* SenTestingKit.framework */,
+				2F56C810E2234D2ABDD8CE02 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +154,14 @@
 			children = (
 				0B694E7416F802D700F2C8E6 /* NHQAppDelegate.h */,
 				0B694E7516F802D700F2C8E6 /* NHQAppDelegate.m */,
+				0B3CCE7B16F98018008764E5 /* RDXGameViewController.h */,
+				0B3CCE7C16F98018008764E5 /* RDXGameViewController.m */,
+				0B3CCE7F16F980D7008764E5 /* RDXKeyboard.h */,
+				0B3CCE8016F980D7008764E5 /* RDXKeyboard.m */,
+				0B3CCB1C16F82C92008764E5 /* NSNumber+Radix.h */,
+				0B3CCB1D16F82C92008764E5 /* NSNumber+Radix.m */,
+				0B3CCE7716F96F34008764E5 /* NSString+Radix.h */,
+				0B3CCE7816F96F34008764E5 /* NSString+Radix.m */,
 				0B694E7D16F802D700F2C8E6 /* Radix.xcdatamodeld */,
 				0B694E6C16F802D700F2C8E6 /* Supporting Files */,
 			);
@@ -109,6 +185,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0B3CCB2616F82EA0008764E5 /* RadixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B3CCB3616F82EA0008764E5 /* Build configuration list for PBXNativeTarget "RadixTests" */;
+			buildPhases = (
+				0B3CCB2216F82EA0008764E5 /* Sources */,
+				0B3CCB2316F82EA0008764E5 /* Frameworks */,
+				0B3CCB2416F82EA0008764E5 /* Resources */,
+				0B3CCB2516F82EA0008764E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadixTests;
+			productName = RadixTests;
+			productReference = 0B3CCB2716F82EA0008764E5 /* RadixTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		0B694E5E16F802D700F2C8E6 /* Radix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B694E8216F802D700F2C8E6 /* Build configuration list for PBXNativeTarget "Radix" */;
@@ -116,6 +210,7 @@
 				0B694E5B16F802D700F2C8E6 /* Sources */,
 				0B694E5C16F802D700F2C8E6 /* Frameworks */,
 				0B694E5D16F802D700F2C8E6 /* Resources */,
+				A6A2DE9FFCFF441F943F2B78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,7 +227,7 @@
 		0B694E5616F802D600F2C8E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NHQ;
+				CLASSPREFIX = RDX;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Notion HQ";
 			};
@@ -149,11 +244,20 @@
 			projectRoot = "";
 			targets = (
 				0B694E5E16F802D700F2C8E6 /* Radix */,
+				0B3CCB2616F82EA0008764E5 /* RadixTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0B3CCB2416F82EA0008764E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3CCB3116F82EA0008764E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B694E5D16F802D700F2C8E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,12 +266,53 @@
 				0B694E7816F802D700F2C8E6 /* Default.png in Resources */,
 				0B694E7A16F802D700F2C8E6 /* Default@2x.png in Resources */,
 				0B694E7C16F802D700F2C8E6 /* Default-568h@2x.png in Resources */,
+				0B840DE716FAD09000E9C42B /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B3CCB2516F82EA0008764E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A6A2DE9FFCFF441F943F2B78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0B3CCB2216F82EA0008764E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3CCB3416F82EA0008764E5 /* RadixTests.m in Sources */,
+				0B3CCB3C16F83114008764E5 /* NSNumber+Radix.m in Sources */,
+				0B3CCE7A16F96F35008764E5 /* NSString+Radix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B694E5B16F802D700F2C8E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,12 +320,24 @@
 				0B694E7216F802D700F2C8E6 /* main.m in Sources */,
 				0B694E7616F802D700F2C8E6 /* NHQAppDelegate.m in Sources */,
 				0B694E7F16F802D700F2C8E6 /* Radix.xcdatamodeld in Sources */,
+				0B3CCB1E16F82C92008764E5 /* NSNumber+Radix.m in Sources */,
+				0B3CCE7916F96F35008764E5 /* NSString+Radix.m in Sources */,
+				0B3CCE7D16F98018008764E5 /* RDXGameViewController.m in Sources */,
+				0B3CCE8116F980D8008764E5 /* RDXKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0B3CCB2F16F82EA0008764E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B3CCB3016F82EA0008764E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		0B694E6E16F802D700F2C8E6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -192,6 +349,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0B3CCB3716F82EA0008764E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadixTests/RadixTests-Prefix.pch";
+				INFOPLIST_FILE = "RadixTests/RadixTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0B3CCB3816F82EA0008764E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadixTests/RadixTests-Prefix.pch";
+				INFOPLIST_FILE = "RadixTests/RadixTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		0B694E8016F802D700F2C8E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -244,7 +439,12 @@
 		};
 		0B694E8316F802D700F2C8E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83121FAFA03C414BA8EF2D5E /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radix/Radix-Prefix.pch";
 				INFOPLIST_FILE = "Radix/Radix-Info.plist";
@@ -255,7 +455,12 @@
 		};
 		0B694E8416F802D700F2C8E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83121FAFA03C414BA8EF2D5E /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Radix/Radix-Prefix.pch";
 				INFOPLIST_FILE = "Radix/Radix-Info.plist";
@@ -267,6 +472,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B3CCB3616F82EA0008764E5 /* Build configuration list for PBXNativeTarget "RadixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3CCB3716F82EA0008764E5 /* Debug */,
+				0B3CCB3816F82EA0008764E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0B694E5916F802D700F2C8E6 /* Build configuration list for PBXProject "Radix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -283,6 +497,7 @@
 				0B694E8416F802D700F2C8E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
