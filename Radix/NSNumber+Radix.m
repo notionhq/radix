@@ -15,7 +15,7 @@
     NSInteger targetBase = alphabet.count;
     NSInteger value = self.integerValue;
     do {
-        result = [NSString stringWithFormat:@"%@%@", alphabet[value % targetBase], result];
+        result = [NSMutableString stringWithFormat:@"%@%@", alphabet[value % targetBase], result];
         value = value / targetBase;
     } while (value > 0);
     return [NSString stringWithString:result];

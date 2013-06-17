@@ -40,6 +40,12 @@
     STAssertNil(error, @"Error not nil when it should be");
 }
 
+- (void)testStringABCInHexIs2748 {
+    NSError *error = nil;
+    STAssertTrue([[@"ABC" numberWithAlphabet:(@[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"A", @"B", @"C", @"D", @"E", @"F"]) error:&error] isEqual:@(2748)], @"\"ABC\" in hex should be 2748 instead was %@", [@"ABC" numberWithAlphabet:(@[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"A", @"B", @"C", @"D", @"E", @"F"]) error:&error]);
+    STAssertNil(error, @"Error not nil when it should be");
+}
+
 - (void)testErrorForInvalidAlphabet {
     NSError *error = nil;
     STAssertNil([@"10" numberWithAlphabet:(@[@"0"]) error:&error], @"\"10\" in radix with alphabet @[@\"0\"] should be nil instead was %@", [@"10" numberWithAlphabet:(@[@"0"]) error:&error]);

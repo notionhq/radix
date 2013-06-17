@@ -22,13 +22,14 @@
     [[UIColor grayColor] setFill];
     UIRectFill(rect);
     UIFont *font = [UIFont systemFontOfSize:18];
-    CGSize stringSize = [self.string sizeWithFont:font];
+    NSDictionary *attributes = @{NSFontAttributeName: font};
+    CGSize stringSize = [self.string sizeWithAttributes:attributes];
     [[UIColor whiteColor] setFill];
     [self.string drawInRect:CGRectMake(floorf((CGRectGetWidth(rect)-stringSize.width)/2.0),
                                        floorf((CGRectGetHeight(rect)-stringSize.height)/2.0),
                                        stringSize.width,
                                        stringSize.height)
-                   withFont:font];
+             withAttributes:attributes];
 }
 
 - (void)setString:(NSString *)string {

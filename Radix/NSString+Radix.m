@@ -13,8 +13,8 @@
 - (NSNumber*)numberWithAlphabet:(NSArray*)alphabet error:(NSError**)error {
     NSInteger value = 0;
     NSInteger base = alphabet.count;
-    for (int i = alphabet.count-1; i >=0; i--) {
-        NSInteger digitIndex = alphabet.count-1-i;
+    for (int i = self.length-1; i >=0; i--) {
+        NSInteger digitIndex = self.length-1-i;
         NSString *string = [self substringWithRange:NSMakeRange(i, 1)];
         NSInteger index = [alphabet indexOfObject:string];
         if (index == NSNotFound) {
