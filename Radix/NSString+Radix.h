@@ -10,6 +10,12 @@
 
 @interface NSString (Radix)
 
++ (NSArray*)numericalAlphabetWithBase:(NSInteger)base error:(NSError**)error;
++ (NSArray*)binaryAlphabet;
++ (NSArray*)ternaryAlphabet;
++ (NSArray*)decimalAlphabet;
++ (NSArray*)hexAlphabet;
+
 - (NSNumber*)numberWithAlphabet:(NSArray*)alphabet error:(NSError**)error;
 
 @end
